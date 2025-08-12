@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+// Add the #if and #endif lines below
+#if UNITY_EDITOR
 using UnityEditor;
 
 namespace XnTools {
@@ -43,3 +45,4 @@ namespace XnTools {
 
     }
 }
+#endif

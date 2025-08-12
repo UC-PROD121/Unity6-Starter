@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BoundsCamera : MonoBehaviour {
+    private const bool DEBUG = true;
+    
     static BoundsCamera S;
     public InfoProperty info = new InfoProperty( "Using the BoundsCamera",
         "1. <b>target</b> should be set to your main player character (or whatever you want the camera to follow).\n\n" +
@@ -52,7 +54,8 @@ public class BoundsCamera : MonoBehaviour {
         // Get all of the camBounds colliders - JB
         camBounds = camBoundsParent.GetComponentsInChildren<Collider2D>();
         currColld = null;
-	}
+        if ( DEBUG ) Debug.Log( $"Found {camBounds.Length} CamBounds." );
+    }
     public static void REFRESH_CAM_BOUNDS() {
         S.RefreshCamBounds();
     }    
@@ -75,6 +78,7 @@ public class BoundsCamera : MonoBehaviour {
                 if (colld.bounds.Contains(tPos)) {
                     // If we find a collider, then set currColld and break out of the foreach loop – JB
                     currColld = colld;
+                    if ( DEBUG ) Debug.Log( $"{colld.bounds} contains {tPos}" );
                     break;
                 }
             }

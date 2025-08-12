@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using NaughtyAttributes;
+// Comment out these two lines in SoundAndMusic.cs
 using UnityEditor;
 using UnityEngine.Serialization;
 using XnTools;
