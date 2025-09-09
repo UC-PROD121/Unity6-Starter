@@ -108,9 +108,9 @@ public class CharacterController2D : MonoBehaviour
 			}
 
 			// Move the character by finding the target velocity
-			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
+			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.linearVelocity.y);
 			// And then smoothing it out and applying it to the character
-			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+			m_Rigidbody2D.linearVelocity = Vector3.SmoothDamp(m_Rigidbody2D.linearVelocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
 			// If the input is moving the player right and the player is facing left...
 			if (move > 0 && !m_FacingRight)
@@ -131,14 +131,14 @@ public class CharacterController2D : MonoBehaviour
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce( new Vector2( 0f, m_JumpForce ) );
 		}
-		if ( jumpHeld && ( m_Rigidbody2D.velocity.y > 0 ) ) {
+		if ( jumpHeld && ( m_Rigidbody2D.linearVelocity.y > 0 ) ) {
 			m_Rigidbody2D.AddForce( new Vector2( 0f, m_JumpHeldForce ) );
 		}
-		if ( jumpReleased && ( m_Rigidbody2D.velocity.y > 0 ) ) {
+		if ( jumpReleased && ( m_Rigidbody2D.linearVelocity.y > 0 ) ) {
             // Set y velocity to 0
-            Vector3 vel = m_Rigidbody2D.velocity;
+            Vector3 vel = m_Rigidbody2D.linearVelocity;
             vel.y = 0;
-            m_Rigidbody2D.velocity = vel;
+            m_Rigidbody2D.linearVelocity = vel;
         }
     }
 

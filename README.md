@@ -1,6 +1,6 @@
-# **Replace this Project Name** - ReadMe File
+# **Term 4 Game Project** - ReadMe File
 
-#### Author: *Replace this with your name*
+#### Author: *Replace this with your team member's names.*
 
 ##### Modified: *2025-09-09*
 

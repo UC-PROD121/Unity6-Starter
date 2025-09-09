@@ -82,7 +82,7 @@ public class FirstPersonController : MonoBehaviour {
         
         // Jump movement
         // NOTE: There is no Grounded check for this character, so you can just infinitely air jump
-        vel.y = rigid.velocity.y;
+        vel.y = rigid.linearVelocity.y;
         if ( jumpNow ) {
             // If jump was pressed this frame, set the vel.y and start rising jump
             jumpRising = true;
@@ -94,7 +94,7 @@ public class FirstPersonController : MonoBehaviour {
         }
         
         // Assign back to Rigidbody
-        rigid.velocity = vel;
+        rigid.linearVelocity = vel;
 
         // Player rotation (Yaw)
         Vector3 rot = transform.eulerAngles;
@@ -113,14 +113,14 @@ public class FirstPersonController : MonoBehaviour {
 
     void FixedUpdate() {
         // Apply our own gravity, since we're adjusting it and NOT using standard Unity gravity
-        Vector3 vel = rigid.velocity;
+        Vector3 vel = rigid.linearVelocity;
         if ( jumpRising ) {
             vel.y += jumpGrav * Time.fixedDeltaTime;
         } else {
             vel.y += jumpGravDown * Time.fixedDeltaTime;
         }
         if (vel.y < 0 ) jumpRising = false;
-        rigid.velocity = vel;
+        rigid.linearVelocity = vel;
     }
     
     

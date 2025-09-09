@@ -45,16 +45,16 @@ MonoBehaviour:
       - This is a simple but effective 2D character controller that is a good starting
       point for developing your own player character controller. It has fewer features
       than the GMTK + CGSK one.\n  \u2022 <b>First Person Controller</b> Folder -
-      A first-person controller prefab and demo scene.\n  \u2022 <b>PCC_Grounder</b>
-      - The Grounder script from the 2D Platformer Coding Challenge in Spring 2025.\n 
-      \u2022 <b>PCC_Player</b> - The Player script from the 2D Platformer Coding
-      Challenge in Spring 2025.\n\n\u2022 <b>GMTK + CGSK Platformer Code</b> - This
-      is a relatively complex 2D character controller that was initially created
-      by GameMakers ToolKit but fixed and heavily modified by Jeremy.\n\n\u2022 <b>Importing
-      a Classic Level</b> - Contains the tools for converting an image of a map from
-      somewhere like spriters-resource.com into a working Unity Tilemap, which can
-      save a ton of space in the final build of your game and make editing the level
-      much easier.\n"
+      A first-person controller prefab and demo scene. (This has been moved to its
+      own higher-level folder.)\n  \u2022 <b>PCC_Grounder</b> - The Grounder script
+      from the 2D Platformer Coding Challenge in Spring 2025.\n  \u2022 <b>PCC_Player</b>
+      - The Player script from the 2D Platformer Coding Challenge in Spring 2025.\n\n\u2022
+      <b>GMTK + CGSK Platformer Code</b> - This is a relatively complex 2D character
+      controller that was initially created by GameMakers ToolKit but fixed and heavily
+      modified by Jeremy.\n\n\u2022 <b>Importing a Classic Level</b> - Contains the
+      tools for converting an image of a map from somewhere like spriters-resource.com
+      into a working Unity Tilemap, which can save a ton of space in the final build
+      of your game and make editing the level much easier.\n"
     linkText: '   More information is available in the Instructions Doc'
     url: https://docs.google.com/document/d/1MME9SmiOWbESyZiEHRC7WudysBDrGfxm5lMhPg_3e0o/edit?usp=sharing
   - heading: Character Controller 2D

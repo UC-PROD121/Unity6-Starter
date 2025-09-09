@@ -54,7 +54,7 @@ public class PCC_Player : MonoBehaviour {
         float v = Xnput.V;
 
         // Horizontal movement
-        Vector2 vel = r2d.velocity;
+        Vector2 vel = r2d.linearVelocity;
         vel.x = h * speed;
         
         
@@ -66,12 +66,12 @@ public class PCC_Player : MonoBehaviour {
         }
         
         
-        r2d.velocity = vel;
+        r2d.linearVelocity = vel;
     }
 
     private void FixedUpdate() {
         if ( jumpRising ) {
-            if ( r2d.velocity.y <= 0 || !Xnput.GetButton(Xnput.eButton.a) ) {
+            if ( r2d.linearVelocity.y <= 0 || !Xnput.GetButton(Xnput.eButton.a) ) {
                 jumpRising = false;
                 r2d.gravityScale = jumpGravDown / baseGrav;
             }

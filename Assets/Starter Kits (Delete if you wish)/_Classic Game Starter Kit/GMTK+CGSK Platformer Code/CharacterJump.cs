@@ -127,7 +127,7 @@ public class CharacterJump : MonoBehaviour
 
 
         //Get velocity from Kit's Rigidbody 
-        velocity = rigid.velocity;
+        velocity = rigid.linearVelocity;
 
         //Keep trying to do a jump, for as long as desiredJump is true
         if (desiredJump)
@@ -136,12 +136,12 @@ public class CharacterJump : MonoBehaviour
 
             //Skip gravity calculations this frame, so currentlyJumping doesn't turn off
             //This makes sure you can't do the coyote time double jump bug
-            rigid.velocity = velocity; // Assign velocity to rigid because return will be called next line.
+            rigid.linearVelocity = velocity; // Assign velocity to rigid because return will be called next line.
             return;
         }
 
         CalculateGravity();
-        rigid.velocity = velocity;
+        rigid.linearVelocity = velocity;
     }
 
     private void CalculateGravity()

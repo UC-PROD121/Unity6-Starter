@@ -97,7 +97,7 @@ public class CharacterMovement : MonoBehaviour {
         onGround = ground.GetOnGround();
 
         //Get the Rigidbody's current velocity
-        velocity = body.velocity;
+        velocity = body.linearVelocity;
 
         //Calculate movement, depending on whether "Instant Movement" has been checked
         if ( characterSettingsSO.useAcceleration ) { RunWithAcceleration(); } else {
@@ -105,7 +105,7 @@ public class CharacterMovement : MonoBehaviour {
         }
 
         //Update the Rigidbody with this new velocity
-        body.velocity = velocity;
+        body.linearVelocity = velocity;
     }
 
     private void RunWithAcceleration() {

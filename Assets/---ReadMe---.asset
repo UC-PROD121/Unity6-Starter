@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 2800000, guid: c55cc35e40a404507a40a804fa1d4852, type: 3}
   iconMaxWidth: 128
-  projectName: Classic Game Project
-  author: Replace this with your name
-  modificationDate: 2025-03-09
+  projectName: Term 4 Game Project
+  author: Replace this with your team member's names.
+  modificationDate: 2025-09-09
   sections:
   - heading: 0. What is the link to your project on itch.io?
     text: <i>(Just paste the link here.)</i>
@@ -39,4 +39,4 @@ MonoBehaviour:
       credit if you tell us about why it's incomplete.)</i>
   - heading: 8. Is there anything else we should know?
     text: 
-  showReadMeEditor: 0
+  showReadMeEditor: 1
