@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9029120374915352687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1044593275758110812}
+  - component: {fileID: 4619581642453095567}
+  - component: {fileID: -5291579620253026808}
+  m_Layer: 0
+  m_Name: SoundAndMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1044593275758110812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9029120374915352687}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4619581642453095567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9029120374915352687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295b97bf39e6c45ada98acdb0f6b219a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  title: Using the SoundAndMusic Component
+  text: '1. Add any audio clips you want to the Project''s <b>Sounds and Music</b>
+    folder as .wav, .mp3, or .ogg files.
+
+
+    2. Open <b>Audio Playables</b> below
+    to add them to the game.
+
+
+    3. If you wish to make any more audio triggers,
+    you need to add them to the eAudioTrigger enum declaration at the top of the
+    SoundAndMusic.cs script.
+
+
+    4. On each Audio Playable, check <b>Show Extra
+    Options</b> to set volume, pitch, looping, etc.\n\t<i>Note: The options still
+    work, even if they are not shown in the Inspector.</i>
+
+
+    5. For examples
+    of how to call <b>SoundAndMusic.Play()</b> in code, search for it in the Movement
+    and Collision scripts.'
+--- !u!114 &-5291579620253026808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9029120374915352687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57d900b2b5bf4f688e81b987748df71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  info:
+    title: Using the SoundAndMusic Component
+    text: "1. Add any audio clips you want to the Project's \"Sounds and Music\"
+      folder as .wav, .mp3, or .ogg files.\n2. Open <b>Audio Playables</b> below
+      to add them to the game.\n3. If you wish to make any more audio triggers, you
+      need to add them to the eAudioTrigger enum declaration at the top of the SoundAndMusic.cs
+      script.\n4. On each Audio Playable, check <b>Show Extra Options</b> to set
+      volume, pitch, looping, etc.\n\t<i>Note: The options still work, even if they
+      are not shown in the Inspector.</i>\n5. For examples of how to call SoundAndMusic.Play()
+      in code, search for it in the Movement.cs and Collision.cs scripts.\n\n"
+    showAsFoldout: 1
+    foldoutOpenByDefault: 0
+  audioPlayables:
+  - name: 
+    trigger: 0
+    soundClip: {fileID: 8300000, guid: e74bd4da10dbf43949da4a88e0ad83de, type: 3}
+    hasAlreadyResetExtraOptions: 1
+    showExtraOptions: 1
+    volume: 20
+    pitch: 100
+    loop: 1
+    playOnStart: 1
+  - name: Jump
+    trigger: 1
+    soundClip: {fileID: 8300000, guid: 6cf9fd729ac824ef2b1a96e839567008, type: 3}
+    hasAlreadyResetExtraOptions: 1
+    showExtraOptions: 0
+    volume: 100
+    pitch: 100
+    loop: 0
+    playOnStart: 0
+  - name: Dash
+    trigger: 3
+    soundClip: {fileID: 8300000, guid: 1166512d0519c4649af8fd7fdf435489, type: 3}
+    hasAlreadyResetExtraOptions: 1
+    showExtraOptions: 0
+    volume: 100
+    pitch: 100
+    loop: 0
+    playOnStart: 0
+  - name: Land
+    trigger: 2
+    soundClip: {fileID: 8300000, guid: cf299e9719a944f73b3013b88d9982ab, type: 3}
+    hasAlreadyResetExtraOptions: 1
+    showExtraOptions: 0
+    volume: 100
+    pitch: 100
+    loop: 0
+    playOnStart: 0
+  - name: Speak
+    trigger: 5
+    soundClip: {fileID: 8300000, guid: 3796a563b3813435d98f76e6b0e46365, type: 3}
+    hasAlreadyResetExtraOptions: 1
+    showExtraOptions: 0
+    volume: 100
+    pitch: 100
+    loop: 0
+    playOnStart: 0
