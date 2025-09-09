@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dd63b70c02c5445bbee752f38ead772, type: 3}
+  m_Name: CGSK_Settings_SuperMarioBros
+  m_EditorClassIdentifier: 
+  maxSpeed: 5.5
+  maxAcceleration: 13
+  maxDeceleration: 13
+  maxTurnSpeed: 13
+  maxAirAcceleration: 13
+  maxAirDeceleration: 13
+  maxAirTurnSpeed: 3
+  useAcceleration: 1
+  jumpSettingsType: 0
+  showJumpLine: 1
+  jumpHeight: 4.25
+  jumpSettingsTime:
+    fullJumpDurationMin: 0.5
+    fullJumpDurationMax: 1
+    jumpApexFraction: 0.6
+  jumpSettingsVariableHeightCGSK:
+    useVariableJumpHeight: 1
+    upwardVelocityZeroing: 0
+    minJumpButtonHeldTime: 0.1
+    gravUpMultiplierOnRelease: 4.51
+  jumpSettingsVariableHeightGMTK:
+    useVariableJumpHeight: 0
+    upwardVelocityZeroing: 0
+    minJumpButtonHeldTime: 0.05
+    gravUpMultiplierOnRelease: 0
+  jumpSettingsDistance:
+    fullJumpDistanceMin: 0.5
+    fullJumpDistanceMax: 5.5
+    jumpApexFraction: 0.6
+  jumpDist:
+    up: 3.3000002
+    down: 2.1999998
+  jumpDuration:
+    up: 0.6
+    down: 0.39999998
+  jumpVel:
+    up: 14.166666
+    down: 21.250002
+  jumpGrav:
+    up: -23.611109
+    down: -53.125008
+  maxJumpDistHeight: {x: 5.499999, y: 4.25}
+  minJumpDistHeight: {x: 2.695, y: 1.9983038}
+  jumpSettingsGMTK:
+    jumpDuration: 5
+    downGravity: 6.17
+    doubleJump: 0
+    variableJumpHeight: 0
+    jumpCutOff: 0
+  terminalFallVelocity: 26.45
+  coyoteTime: 0.15
+  jumpBuffer: 0.15
+  jumpsBetweenGrounding: 1
+  colliderSettings:
+    info:
+      title: Capsule Collider Settings Info
+      text: CapsuleCollider2D size and offset are set automatically from height and
+        width here. Also set grounding raycasts info here.
+      showAsFoldout: 0
+      foldoutOpenByDefault: 0
+    height: 2
+    width: 0.5
+    groundRaycastWidth: 0.4
+    groundRaycastDepth: 0.1
+    groundLayers:
+      serializedVersion: 2
+      m_Bits: 64
+  squashAndStretch: 0
+  jumpSquashSettings: {x: 0, y: 0, z: 0}
+  landSquashSettings: {x: 0, y: 0, z: 0}
+  landSqueezeMultiplier: 0
+  jumpSqueezeMultiplier: 0
+  landDrop: 1
+  leanForward: 0
+  maxTilt: 0
+  tiltSpeed: 0

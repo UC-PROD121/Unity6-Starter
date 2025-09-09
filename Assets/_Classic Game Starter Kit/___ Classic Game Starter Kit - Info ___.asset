@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c36de0ae2805a2e43b3352feff2cda38, type: 3}
+  m_Name: ___ Classic Game Starter Kit - Info ___
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: b0d6e46d7a49245d595e6d5c1dcce02a, type: 3}
+  iconMaxWidth: 128
+  title: "<b>Classic Game Starter Kit</b>\nMI 231 \u2013\_Game and Interactive Media
+    Dev\n\u2013 games.MSU.edu \u2013"
+  sections:
+  - heading: <b>Instructions Document</b>
+    text: 'You can find a link to detailed instructions for using this starter kit
+      at the following Google Doc. You cannot edit the document, but you can make
+      comments if you would like me to clarify anything or add any information.
+
+
+      <b>Please
+      refer to this Instructions Doc for the best CGSK info!</b> '
+    linkText: '   <b>https://tinyurl.com/mi231-classic-game</b>'
+    url: https://tinyurl.com/mi231-classic-game
+  - heading: <b>Contents of this Starter Kit</b>
+    text: "Most things can be found in the <b><i>_Classic Game Starter Kit</i></b>
+      folder. Read the <b>Instructions Doc</b> (linked above) for much better info
+      on each of these. \n\n\u2022 <b>BoundsCamera.cs</b> - A camera that follows
+      the player within bounds that are defined by BoxCollider2D triggers (in __Scripts
+      folder).\n\n\u2022\_<b>_Prefabs Folder</b>\n  \u2022 <b>Player2D Prefab</b>
+      - A player GameObject that uses the GMTK + CGSK Platformer Code\n  \u2022 <b>Stairs
+      Prefab</b> - A set of invisible stairs (or ladder) that can be climbed by Player\n 
+      \u2022 <b>Xnput Prefab</b> - Once it has been drug into a scene, the <b>Xnput
+      Prefab</b> uses the new Unity Input System and NES_InputActions to generate
+      data for NES-style controls from a keyboard or gamepad. It is accessed statically
+      just like Unity's built-in Input (e.g., Xnput.GetButtonDown(\"Start\")). If
+      you select the prefab, you can see the various buttons working when the scene
+      is played.\n\n\u2022 <b>Alternate Character Controllers</b> - Several simpler
+      character controllers with fewer features\n  \u2022 <b>CharacterController2D</b>
+      - This is a simple but effective 2D character controller that is a good starting
+      point for developing your own player character controller. It has fewer features
+      than the GMTK + CGSK one.\n  \u2022 <b>First Person Controller</b> Folder -
+      A first-person controller prefab and demo scene.\n  \u2022 <b>PCC_Grounder</b>
+      - The Grounder script from the 2D Platformer Coding Challenge in Spring 2025.\n 
+      \u2022 <b>PCC_Player</b> - The Player script from the 2D Platformer Coding
+      Challenge in Spring 2025.\n\n\u2022 <b>GMTK + CGSK Platformer Code</b> - This
+      is a relatively complex 2D character controller that was initially created
+      by GameMakers ToolKit but fixed and heavily modified by Jeremy.\n\n\u2022 <b>Importing
+      a Classic Level</b> - Contains the tools for converting an image of a map from
+      somewhere like spriters-resource.com into a working Unity Tilemap, which can
+      save a ton of space in the final build of your game and make editing the level
+      much easier.\n"
+    linkText: '   More information is available in the Instructions Doc'
+    url: https://docs.google.com/document/d/1MME9SmiOWbESyZiEHRC7WudysBDrGfxm5lMhPg_3e0o/edit?usp=sharing
+  - heading: Character Controller 2D
+    text: The character platformer code is a modified version of the GMTK Platformer
+      Toolkit. A few <b>Alternate Character Controllers</b> are also included in
+      the _CGSK folder.
+    linkText: '   For more info, watch this GMTK video'
+    url: https://www.youtube.com/watch?v=zWi0jgghGcI
+  - heading: Importing a Classic Level Tilemap Code
+    text: This is mostly built on code from the Dungeon Delver project in my book.
+      Extensive instructions for using this are in the Instructions Google Doc.
+    linkText: '   <b>https://tinyurl.com/mi231-classic-game</b>'
+    url: https://tinyurl.com/mi231-classic-game
+  - heading: NaughtyAttributes - Unity Asset
+    text: This project includes the <b>excellent</b> and <b>free</b> NaughtyAttributes
+      asset from the Unity Asset Store. NaughtyAttributes was created by Denis Rizov
+      to allow some of the same functionality as the (even better but expensive)
+      <i>Odin Inspector Tools</i> in a free package.
+    linkText: '   NaughtyAttributes - Free on the Unity Asset Store'
+    url: https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996
+  - heading: Image Editing Options
+    text: "The document linked above includes step-by-step instructions for using
+      Photopea.com, but you can do the same things in Affinity Photo, Photoshop,
+      or even Gimp.\t"
+    linkText: '   Photopea is free at http://photopea.com'
+    url: http://photopea.com
+  - heading: <b>This is a Work in Progress!</b>
+    text: "If you find things that are broken, please let me know. Several things
+      are unfinished at this point, and I will be updating them throughout the semester
+      and beyond.\n\nIn Fall, 2022, we used the Game Makers ToolKit <i>GMTK Platformer
+      Toolkit</i>, which is pretty great as an interactive essay, but I found and
+      fixed some bugs in the actual platformer code that they distributed and felt
+      that some things could have been done better. When I contacted GMTK about it,
+      they said that they had moved on to other projects and weren't interested in
+      improving their Toolkit, so I felt that I needed to make my own.\n\nDoing so,
+      is taking some time, as all things do.\n     \u2014 <i>Jeremy</i>"
+    linkText: 
+    url: 
+  showDefaultInspector: 0

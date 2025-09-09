@@ -1,0 +1,1812 @@
+fileFormatVersion: 2
+guid: 84390ecf249537e4289048e293345ff7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: mapTexture_0
+  - first:
+      213: 21300002
+    second: mapTexture_1
+  - first:
+      213: 21300004
+    second: mapTexture_2
+  - first:
+      213: 21300006
+    second: mapTexture_3
+  - first:
+      213: 21300008
+    second: mapTexture_4
+  - first:
+      213: 21300010
+    second: mapTexture_5
+  - first:
+      213: 21300012
+    second: mapTexture_6
+  - first:
+      213: 21300014
+    second: mapTexture_7
+  - first:
+      213: 21300016
+    second: mapTexture_8
+  - first:
+      213: 21300018
+    second: mapTexture_9
+  - first:
+      213: 21300020
+    second: mapTexture_10
+  - first:
+      213: 21300022
+    second: mapTexture_11
+  - first:
+      213: 21300024
+    second: mapTexture_12
+  - first:
+      213: 21300026
+    second: mapTexture_13
+  - first:
+      213: 21300028
+    second: mapTexture_14
+  - first:
+      213: 21300030
+    second: mapTexture_15
+  - first:
+      213: 21300032
+    second: mapTexture_16
+  - first:
+      213: 21300034
+    second: mapTexture_17
+  - first:
+      213: 21300036
+    second: mapTexture_18
+  - first:
+      213: 21300038
+    second: mapTexture_19
+  - first:
+      213: 21300040
+    second: mapTexture_20
+  - first:
+      213: 21300042
+    second: mapTexture_21
+  - first:
+      213: 21300044
+    second: mapTexture_22
+  - first:
+      213: 21300046
+    second: mapTexture_23
+  - first:
+      213: 21300048
+    second: mapTexture_24
+  - first:
+      213: 21300050
+    second: mapTexture_25
+  - first:
+      213: 21300052
+    second: mapTexture_26
+  - first:
+      213: 21300054
+    second: mapTexture_27
+  - first:
+      213: 21300056
+    second: mapTexture_28
+  - first:
+      213: 21300058
+    second: mapTexture_29
+  - first:
+      213: 21300060
+    second: mapTexture_30
+  - first:
+      213: 21300062
+    second: mapTexture_31
+  - first:
+      213: 21300064
+    second: mapTexture_32
+  - first:
+      213: 21300066
+    second: mapTexture_33
+  - first:
+      213: 21300068
+    second: mapTexture_34
+  - first:
+      213: 21300070
+    second: mapTexture_35
+  - first:
+      213: 21300072
+    second: mapTexture_36
+  - first:
+      213: 21300074
+    second: mapTexture_37
+  - first:
+      213: 21300076
+    second: mapTexture_38
+  - first:
+      213: 21300078
+    second: mapTexture_39
+  - first:
+      213: 21300080
+    second: mapTexture_40
+  - first:
+      213: 21300082
+    second: mapTexture_41
+  - first:
+      213: 21300084
+    second: mapTexture_42
+  - first:
+      213: 21300086
+    second: mapTexture_43
+  - first:
+      213: 21300088
+    second: mapTexture_44
+  - first:
+      213: 21300090
+    second: mapTexture_45
+  - first:
+      213: 21300092
+    second: mapTexture_46
+  - first:
+      213: 21300094
+    second: mapTexture_47
+  - first:
+      213: 21300096
+    second: mapTexture_48
+  - first:
+      213: 21300098
+    second: mapTexture_49
+  - first:
+      213: 21300100
+    second: mapTexture_50
+  - first:
+      213: 21300102
+    second: mapTexture_51
+  - first:
+      213: 21300104
+    second: mapTexture_52
+  - first:
+      213: 21300106
+    second: mapTexture_53
+  - first:
+      213: 21300108
+    second: mapTexture_54
+  - first:
+      213: 21300110
+    second: mapTexture_55
+  - first:
+      213: 21300112
+    second: mapTexture_56
+  - first:
+      213: 21300114
+    second: mapTexture_57
+  - first:
+      213: 21300116
+    second: mapTexture_58
+  - first:
+      213: 21300118
+    second: mapTexture_59
+  - first:
+      213: 21300120
+    second: mapTexture_60
+  - first:
+      213: 21300122
+    second: mapTexture_61
+  - first:
+      213: 21300124
+    second: mapTexture_62
+  - first:
+      213: 21300126
+    second: mapTexture_63
+  - first:
+      213: 21300128
+    second: mapTexture_64
+  - first:
+      213: 21300130
+    second: mapTexture_65
+  - first:
+      213: 21300132
+    second: mapTexture_66
+  - first:
+      213: 21300134
+    second: mapTexture_67
+  - first:
+      213: 21300136
+    second: mapTexture_68
+  - first:
+      213: 21300138
+    second: mapTexture_69
+  - first:
+      213: 21300140
+    second: mapTexture_70
+  - first:
+      213: 21300142
+    second: mapTexture_71
+  - first:
+      213: 21300144
+    second: mapTexture_72
+  - first:
+      213: 21300146
+    second: mapTexture_73
+  - first:
+      213: 21300148
+    second: mapTexture_74
+  - first:
+      213: 21300150
+    second: mapTexture_75
+  - first:
+      213: 21300152
+    second: mapTexture_76
+  - first:
+      213: 21300154
+    second: mapTexture_77
+  - first:
+      213: 21300156
+    second: mapTexture_78
+  - first:
+      213: 21300158
+    second: mapTexture_79
+  - first:
+      213: 21300160
+    second: mapTexture_80
+  - first:
+      213: 21300162
+    second: mapTexture_81
+  - first:
+      213: 21300164
+    second: mapTexture_82
+  - first:
+      213: 21300166
+    second: mapTexture_83
+  - first:
+      213: 21300168
+    second: mapTexture_84
+  - first:
+      213: 21300170
+    second: mapTexture_85
+  - first:
+      213: 21300172
+    second: mapTexture_86
+  - first:
+      213: 21300174
+    second: mapTexture_87
+  - first:
+      213: 21300176
+    second: mapTexture_88
+  - first:
+      213: 21300178
+    second: mapTexture_89
+  - first:
+      213: 21300180
+    second: mapTexture_90
+  - first:
+      213: 21300182
+    second: mapTexture_91
+  - first:
+      213: 21300184
+    second: mapTexture_92
+  - first:
+      213: 21300186
+    second: mapTexture_93
+  - first:
+      213: 21300188
+    second: mapTexture_94
+  - first:
+      213: 21300190
+    second: mapTexture_95
+  - first:
+      213: 21300192
+    second: mapTexture_96
+  - first:
+      213: 21300194
+    second: mapTexture_97
+  - first:
+      213: 21300196
+    second: mapTexture_98
+  - first:
+      213: 21300198
+    second: mapTexture_99
+  - first:
+      213: 21300200
+    second: mapTexture_100
+  - first:
+      213: 21300202
+    second: mapTexture_101
+  - first:
+      213: 21300204
+    second: mapTexture_102
+  - first:
+      213: 21300206
+    second: mapTexture_103
+  - first:
+      213: 21300208
+    second: mapTexture_104
+  - first:
+      213: 21300210
+    second: mapTexture_105
+  - first:
+      213: 21300212
+    second: mapTexture_106
+  - first:
+      213: 21300214
+    second: mapTexture_107
+  - first:
+      213: 21300216
+    second: mapTexture_108
+  - first:
+      213: 21300218
+    second: mapTexture_109
+  - first:
+      213: 21300220
+    second: mapTexture_110
+  - first:
+      213: 21300222
+    second: mapTexture_111
+  - first:
+      213: 21300224
+    second: mapTexture_112
+  - first:
+      213: 21300226
+    second: mapTexture_113
+  - first:
+      213: 21300228
+    second: mapTexture_114
+  - first:
+      213: 21300230
+    second: mapTexture_115
+  - first:
+      213: 21300232
+    second: mapTexture_116
+  - first:
+      213: 21300234
+    second: mapTexture_117
+  - first:
+      213: 21300236
+    second: mapTexture_118
+  - first:
+      213: 21300238
+    second: mapTexture_119
+  - first:
+      213: 21300240
+    second: mapTexture_120
+  - first:
+      213: 21300242
+    second: mapTexture_121
+  - first:
+      213: 21300244
+    second: mapTexture_122
+  - first:
+      213: 21300246
+    second: mapTexture_123
+  - first:
+      213: 21300248
+    second: mapTexture_124
+  - first:
+      213: 21300250
+    second: mapTexture_125
+  - first:
+      213: 21300252
+    second: mapTexture_126
+  - first:
+      213: 21300254
+    second: mapTexture_127
+  - first:
+      213: 21300256
+    second: mapTexture_128
+  - first:
+      213: 21300258
+    second: mapTexture_129
+  - first:
+      213: 21300260
+    second: mapTexture_130
+  - first:
+      213: 21300262
+    second: mapTexture_131
+  - first:
+      213: 21300264
+    second: mapTexture_132
+  - first:
+      213: 21300266
+    second: mapTexture_133
+  - first:
+      213: 21300268
+    second: mapTexture_134
+  - first:
+      213: 21300270
+    second: mapTexture_135
+  - first:
+      213: 21300272
+    second: mapTexture_136
+  - first:
+      213: 21300274
+    second: mapTexture_137
+  - first:
+      213: 21300276
+    second: mapTexture_138
+  - first:
+      213: 21300278
+    second: mapTexture_139
+  - first:
+      213: 21300280
+    second: mapTexture_140
+  - first:
+      213: 21300282
+    second: mapTexture_141
+  - first:
+      213: 21300284
+    second: mapTexture_142
+  - first:
+      213: 21300286
+    second: mapTexture_143
+  - first:
+      213: 21300288
+    second: mapTexture_144
+  - first:
+      213: 21300290
+    second: mapTexture_145
+  - first:
+      213: 21300292
+    second: mapTexture_146
+  - first:
+      213: 21300294
+    second: mapTexture_147
+  - first:
+      213: 21300296
+    second: mapTexture_148
+  - first:
+      213: 21300298
+    second: mapTexture_149
+  - first:
+      213: 21300300
+    second: mapTexture_150
+  - first:
+      213: 21300302
+    second: mapTexture_151
+  - first:
+      213: 21300304
+    second: mapTexture_152
+  - first:
+      213: -4458165139343106235
+    second: mapTexture_0
+  - first:
+      213: -6850679825799946229
+    second: mapTexture_1
+  - first:
+      213: 7966432570847436618
+    second: mapTexture_2
+  - first:
+      213: 5030542675775328186
+    second: mapTexture_3
+  - first:
+      213: 248293331641584978
+    second: mapTexture_4
+  - first:
+      213: 3490761498837416290
+    second: mapTexture_5
+  - first:
+      213: -8656460410480708162
+    second: mapTexture_6
+  - first:
+      213: 3882055140027832029
+    second: mapTexture_7
+  - first:
+      213: -6114830071809263226
+    second: mapTexture_8
+  - first:
+      213: -7667563367790318248
+    second: mapTexture_9
+  - first:
+      213: -8992454958689973588
+    second: mapTexture_10
+  - first:
+      213: -5470358593677613217
+    second: mapTexture_11
+  - first:
+      213: 228574990070130130
+    second: mapTexture_12
+  - first:
+      213: 7048306125423739123
+    second: mapTexture_13
+  - first:
+      213: -8426506931672294587
+    second: mapTexture_14
+  - first:
+      213: 390262970279454064
+    second: mapTexture_15
+  - first:
+      213: -5063001399956563556
+    second: mapTexture_16
+  - first:
+      213: -6197112038881958424
+    second: mapTexture_17
+  - first:
+      213: 178482249050426312
+    second: mapTexture_18
+  - first:
+      213: -5130053153944899749
+    second: mapTexture_19
+  - first:
+      213: 2634762196576344234
+    second: mapTexture_20
+  - first:
+      213: 3234711481257437675
+    second: mapTexture_21
+  - first:
+      213: -9101048318052635953
+    second: mapTexture_22
+  - first:
+      213: -6835037130759739366
+    second: mapTexture_23
+  - first:
+      213: -7482160144009406135
+    second: mapTexture_24
+  - first:
+      213: -5578949874841269748
+    second: mapTexture_25
+  - first:
+      213: -609100648798311308
+    second: mapTexture_26
+  - first:
+      213: 6916694196144909503
+    second: mapTexture_27
+  - first:
+      213: 802974411884020813
+    second: mapTexture_28
+  - first:
+      213: -9099782026480922811
+    second: mapTexture_29
+  - first:
+      213: -626770019975643831
+    second: mapTexture_30
+  - first:
+      213: 5143853754322512325
+    second: mapTexture_31
+  - first:
+      213: -8642678225648995815
+    second: mapTexture_32
+  - first:
+      213: 31359755739989249
+    second: mapTexture_33
+  - first:
+      213: 5242479820200333678
+    second: mapTexture_34
+  - first:
+      213: 4920202732262827667
+    second: mapTexture_35
+  - first:
+      213: 47122163891417999
+    second: mapTexture_36
+  - first:
+      213: 1473367571470374376
+    second: mapTexture_37
+  - first:
+      213: 3476555825017171134
+    second: mapTexture_38
+  - first:
+      213: 4092279355658001612
+    second: mapTexture_39
+  - first:
+      213: 182452964419921973
+    second: mapTexture_40
+  - first:
+      213: 2617319353971828294
+    second: mapTexture_41
+  - first:
+      213: 3732644816298054645
+    second: mapTexture_42
+  - first:
+      213: 4943408270314580552
+    second: mapTexture_43
+  - first:
+      213: -4524594463401401176
+    second: mapTexture_44
+  - first:
+      213: 7923655547152629309
+    second: mapTexture_45
+  - first:
+      213: 5042924233827422310
+    second: mapTexture_46
+  - first:
+      213: 862891718406804216
+    second: mapTexture_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mapTexture_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f9c671d6a6122c0800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b006241befe7de0a0800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f967817347e8e60800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf080129e310d540800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d4898387d127300800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26970dd961da17030800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5b01dde131ed780800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd696d3f494dfd530800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689beeb8272c32ba0800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d6f02ddb7579590800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa8590fbd1643380800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5727dd97d16514b0800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d52baf0ebf0c2300800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0871ad31d90d160800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b5e4857980f0b80800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075ee709a1e7a6500800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99984a3d0b9cb9b0800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5e4213f6f6ff9a0800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb0d5de8a81a7200800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fed3036d36ec8b0800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa89f8a124e809420800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be92a3734f004ec20800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca6ece26c492b180800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18e57271f11521a0800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949dbbfbdf60a2890800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a406ab5a69392b0800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47caae3ef2a0c87f0800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc2935a9b80dff50800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44431829fcb42b00800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fce1aa57417b180800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dbc73dcf34d47f0800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9e3fa7cb3a26740800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9123034d1f90f0880800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105002d18896f6000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61d131ee9701c840800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396ae6f0152184440800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83bbcfbb5967a000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e552110004727410800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebca6ff6a153f3030800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccd8a36462bac830800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53867742104388200800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646ee35d516925420800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3162c1fa40dc330800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a24db61a38a9440800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4a240de496531c0800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ef5922dba76fd60800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6601e724fd01cf540800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapTexture_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f29343327b99fb00800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cdc7a7c642c79492987d82662a4d22b5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mapTexture_0: 21300000
+      mapTexture_1: 21300002
+      mapTexture_10: 21300020
+      mapTexture_11: 21300022
+      mapTexture_12: 21300024
+      mapTexture_13: 21300026
+      mapTexture_14: 21300028
+      mapTexture_15: 21300030
+      mapTexture_16: 21300032
+      mapTexture_17: 21300034
+      mapTexture_18: 21300036
+      mapTexture_19: 21300038
+      mapTexture_2: 21300004
+      mapTexture_20: 21300040
+      mapTexture_21: 21300042
+      mapTexture_22: 21300044
+      mapTexture_23: 21300046
+      mapTexture_24: 21300048
+      mapTexture_25: 21300050
+      mapTexture_26: 21300052
+      mapTexture_27: 21300054
+      mapTexture_28: 21300056
+      mapTexture_29: 21300058
+      mapTexture_3: 21300006
+      mapTexture_30: 21300060
+      mapTexture_31: 21300062
+      mapTexture_32: 21300064
+      mapTexture_33: 21300066
+      mapTexture_34: 21300068
+      mapTexture_35: 21300070
+      mapTexture_36: 21300072
+      mapTexture_37: 21300074
+      mapTexture_38: 21300076
+      mapTexture_39: 21300078
+      mapTexture_4: 21300008
+      mapTexture_40: 21300080
+      mapTexture_41: 21300082
+      mapTexture_42: 21300084
+      mapTexture_43: 21300086
+      mapTexture_44: 21300088
+      mapTexture_45: 21300090
+      mapTexture_46: 21300092
+      mapTexture_47: 21300094
+      mapTexture_5: 21300010
+      mapTexture_6: 21300012
+      mapTexture_7: 21300014
+      mapTexture_8: 21300016
+      mapTexture_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
