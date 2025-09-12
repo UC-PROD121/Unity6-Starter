@@ -41,7 +41,7 @@ public class ProjectInfoEditor : Editor {
 	// 	method.Invoke( null, new object[] { Path.Combine( Application.dataPath, "TutorialInfo/Layout.wlt" ), false } );
 	// }
 
-	[MenuItem( ProjectMenuHeader+"/——— Show CGSK Project Info ———", false, 1 )]
+	[MenuItem( ProjectMenuHeader+"/Classic Game Starter Kit Info", false, 5 )]
 	static ProjectInfo_SO SelectProjectInfo() {
 		var ids = AssetDatabase.FindAssets( "t:ProjectInfo_SO" );
 		if ( ids.Length == 1 ) {

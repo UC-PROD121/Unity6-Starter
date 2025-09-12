@@ -14,8 +14,8 @@ namespace XnTools {
 		public float iconMaxWidth = 128f;
 
 		[TextArea( 1, 10 )]
-		public string projectName = "Replace this Project Name";
-		public string author           = "Replace this with your name";
+		public string projectName      = DEFAULT_PROJ_NAME;
+		public string author           = DEFAULT_AUTHOR;
 		public string modificationDate = currentDate;
 
 		public Section[] sections = readMeDefaultSections;
@@ -23,9 +23,11 @@ namespace XnTools {
 		[HideInInspector]
 		public bool showReadMeEditor = false;
 
+		const string DEFAULT_PROJ_NAME = "Replace this Project Name";
+		const string DEFAULT_AUTHOR    = "Replace this with your team members' names";
 		public void ResetReadMeToDefaults() {
-			projectName = "Replace this Project Name";
-			author = "Replace this with your name";
+			projectName = DEFAULT_PROJ_NAME;
+			author = DEFAULT_AUTHOR;
 			sections = readMeDefaultSections;
 		}
 
@@ -57,58 +59,64 @@ namespace XnTools {
 				
 				// Itch.io Link
 				sec = new Section();
-				sec.heading = "0. What is the link to your project on itch.io?";
+				sec.heading = "1. itch.io link for your game:";
 				sec.text = "<i>(Just paste the link here.)</i>";
+				sections.Add( sec );
+				
+				// Description
+				sec = new Section();
+				sec.heading = "2. Description of your game:";
+				sec.text = "<i>(Give us a brief description of the changes you have made.)</i>";
 				sections.Add( sec );
 
 				// Controls
 				sec = new Section();
-				sec.heading = "1. What are the controls to your game? How do we play?";
-				sec.text = "<i>(art, music, etc. Just tell us where you got it, link it here)</i>";
+				sec.heading = "3. Are there any changes to the controls of your game? How do we play?";
+				sec.text = "<i>(Did you add or remove any controls from the ones that were included?)</i>";
 				sections.Add( sec );
 
 				// Creative Additions
 				sec = new Section();
-				sec.heading = "2. What creative additions did you make? How can we find them?";
+				sec.heading = "4. What are some interesting aspects of your game? How can we find them?";
 				sec.text = "<i>(If you don't tell us how to experience them, we could easily miss them.)</i>";
 				sections.Add( sec );
 
 				// Assets
 				sec = new Section();
-				sec.heading = "3. Any assets used that you didn't create yourself?";
+				sec.heading = "5. Any assets used that you didn't create yourself?";
 				sec.text = "<i>(art, music, etc. Just tell us where you got it, link it here)</i>";
 				sections.Add( sec );
 
 				// Help - Person
 				sec = new Section();
-				sec.heading = "4. Did you receive help from anyone outside this class or from anyone" +
+				sec.heading = "6. Did you receive help from anyone outside this class or from anyone" +
 				              " in this class that is not in a group with you?";
 				sec.text = "<i>(list their names and what they helped with)</i>";
 				sections.Add( sec );
 
-				// Help - AI Assistants
-				sec = new Section();
-				sec.heading = "5. Did you get help from any AI Code Assistants?";
-				sec.text = "<i>(Including things like Chat-GPT, Copilot, etc. Tell us which .cs file" +
-				           " to look in for the citation and describe what you learned)</i>";
-				sections.Add( sec );
-
 				// Help - Websites and Tutorials
 				sec = new Section();
-				sec.heading = "6. Did you get help from any online websites, videos, or tutorials?";
+				sec.heading = "7. Did you get help from any online websites, videos, or tutorials?";
 				sec.text = "<i>(link them here)</i>";
+				sections.Add( sec );
+
+				// Help - AI Assistants
+				sec = new Section();
+				sec.heading = "8. Did you get help from any Extractive AI Code or Art Assistants?";
+				sec.text = "<i>(Including things like Chat-GPT, Copilot, etc. If it is code, tell us which .cs file" +
+				           " to look in for the citation and describe what you learned)</i>";
 				sections.Add( sec );
 
 				// Trouble
 				sec = new Section();
-				sec.heading = "7. What trouble did you have with this project?";
+				sec.heading = "9. What trouble did you have with this project?";
 				sec.text = "<i>(Even if you didn't complete the project, you can still get partial" +
 				           " credit if you tell us about why it's incomplete.)</i>";
 				sections.Add( sec );
 
 				// Anything Else
 				sec = new Section();
-				sec.heading = "8. Is there anything else we should know?";
+				sec.heading = "10. Is there anything else we should know?";
 				sections.Add( sec );
 
 				return sections.ToArray();

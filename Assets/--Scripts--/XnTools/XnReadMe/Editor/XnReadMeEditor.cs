@@ -17,8 +17,8 @@ namespace XnTools {
 	[CustomEditor( typeof(XnReadMe_SO) )]
 	[InitializeOnLoad]
 	public class XnReadMeEditor : Editor {
-		private const string ProjectMenuHeader     = "Help/MI 231 - ";
-		private const string UnityWindowLayoutPath = "UnityWindowLayoutFile_NES.wlt";
+		private const string ProjectMenuHeader     = "Help/ - ";
+		private const string UnityWindowLayoutPath = "--Scripts--/XnTools/XnReadMe/IGDPD4eWindowLayout.wlt";
 
 		static         string kShowedProjectInfoSessionStateName = "ProjectInfoEditor.showedProjectInfo";
 
@@ -40,16 +40,21 @@ namespace XnTools {
 			}
 		}
 
-		[MenuItem( ProjectMenuHeader + "Load Classic NES Window Layout", false, 2)]
+		[MenuItem( ProjectMenuHeader + "Load IGDPD4e Window Layout", false, 2)]
 		static void LoadBestWindowLayout() {
-			var assembly = typeof( EditorApplication ).Assembly;
-			var windowLayoutType = assembly.GetType( "UnityEditor.WindowLayout", true );
-			// var method = windowLayoutType.GetMethod( "LoadWindowLayout", BindingFlags.Public | BindingFlags.Static );
-			var method = windowLayoutType.GetMethod("LoadWindowLayout",
-				BindingFlags.Public | BindingFlags.Static,
-				null, new Type[] { typeof(string), typeof(bool) }, null);
-			// Assets/--Scripts--/XnTools/UnityWindowLayout.wlt
-			method?.Invoke( null, new object[] { Path.Combine( Application.dataPath, UnityWindowLayoutPath ), false } );
+			string path = Path.Combine( Application.dataPath, UnityWindowLayoutPath );
+			bool successful = EditorUtility.LoadWindowLayout(path); // will log an error if fails
+			
+			// var assembly = typeof( EditorApplication ).Assembly;
+			// var windowLayoutType = assembly.GetType( "UnityEditor.WindowLayout", true );
+			//
+			//
+			// // var method = windowLayoutType.GetMethod( "LoadWindowLayout", BindingFlags.Public | BindingFlags.Static );
+			// var method = windowLayoutType.GetMethod("LoadWindowLayout",
+			// 	BindingFlags.Public | BindingFlags.Static,
+			// 	null, new Type[] { typeof(string), typeof(bool) }, null);
+			// // Assets/--Scripts--/XnTools/UnityWindowLayout.wlt
+			// method?.Invoke( null, new object[] { Path.Combine( Application.dataPath, UnityWindowLayoutPath ), false } );
 		}
 
 		[MenuItem( ProjectMenuHeader + "Show Editable Project ReadMe", false, 1 )]
