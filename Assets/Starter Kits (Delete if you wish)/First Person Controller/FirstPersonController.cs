@@ -6,36 +6,39 @@ using UnityEngine;
 using NaughtyAttributes;
 
 
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent( typeof(Rigidbody) )]
 public class FirstPersonController : MonoBehaviour {
+    
     [Header( "Inscribed" )]
     public float speed = 10;
-    
-    [OnValueChanged("SetJumpVars")]
+
+    [OnValueChanged( "SetJumpVars" )]
     public float jumpHeight = 5;
-    [OnValueChanged("SetJumpVars")]
-    public float jumpDist   = 10;
-    [Range(0.1f,0.9f)]
-    [OnValueChanged("SetJumpVars")]
+    [OnValueChanged( "SetJumpVars" )]
+    public float jumpDist = 10;
+    [Range( 0.1f, 0.9f )]
+    [OnValueChanged( "SetJumpVars" )]
     public float jumpApex = 0.5f;
-    [Tooltip("Note that variable jump height only works if jumpApex > 0.5." +
-             "    Otherwise, there is no difference between rising and falling gravity")]
+    [Tooltip( "Note that variable jump height only works if jumpApex > 0.5." +
+              "    Otherwise, there is no difference between rising and falling gravity" )]
     public bool useVariableHeightJump = true;
-    
+
     public Transform camTrans;
     public float     yawMult     = 30;
     public float     pitchMult   = 20;
     public bool      invertPitch = true;
     public Vector2   pitchLimits = new Vector2( -60, 60 );
-    
-    
-    [Header("Dynamic")]
+
+
+    [Header( "Dynamic" )]
     public float jumpVel;
     public float jumpGrav;
     public float jumpGravDown;
     public bool  jumpRising = false;
-    
+
     private Rigidbody rigid;
+    
+    private Xnput xnputInstance;
 
     void Start() {
         rigid = GetComponent<Rigidbody>();
@@ -46,6 +49,10 @@ public class FirstPersonController : MonoBehaviour {
         
         // We're not using Unity gravity because we're modifying it ourselves - JGB 2025-03-09
         rigid.useGravity = false;
+        
+#if Use_Xnput
+        xnputInstance = GetComponent<Xnput>();
+#endif
     }
 
     // Update is called once per frame
@@ -59,20 +66,35 @@ public class FirstPersonController : MonoBehaviour {
         // Get the horizontal and vertical axis.
         // By default they are mapped to the arrow keys.
         // The value is in the range -1 to 1
+        float h, v, mX, mY;
+        bool jumpNow, jumpHeld;
+        
 #if Use_Xnput
-        float h = Xnput.GetAxis( Xnput.eAxis.horizontal );
-        float v = Xnput.GetAxis( Xnput.eAxis.vertical );
-        float mX = Xnput.GetAxisRaw( Xnput.eAxis.rightStickH );
-        float mY = Xnput.GetAxisRaw( Xnput.eAxis.rightStickV );
-        bool jumpNow = Xnput.GetButtonDown( Xnput.eButton.a );
-        bool jumpHeld = Xnput.GetButton( Xnput.eButton.a );
+        if ( Xnput.GetScope() == Xnput.eXnputScope.Instanced ) {
+            h = xnputInstance.GetInstanceAxis( Xnput.eAxis.horizontal );
+            v = xnputInstance.GetInstanceAxis( Xnput.eAxis.vertical );
+            mX = xnputInstance.GetInstanceAxisRaw( Xnput.eAxis.rightStickH );
+            mY = xnputInstance.GetInstanceAxisRaw( Xnput.eAxis.rightStickV );
+            jumpNow = xnputInstance.GetInstanceButtonDown( Xnput.eButton.a );
+            jumpHeld = xnputInstance.GetInstanceButton( Xnput.eButton.a );
+
+        } else {
+
+            h = Xnput.GetAxis( Xnput.eAxis.horizontal );
+            v = Xnput.GetAxis( Xnput.eAxis.vertical );
+            mX = Xnput.GetAxisRaw( Xnput.eAxis.rightStickH );
+            mY = Xnput.GetAxisRaw( Xnput.eAxis.rightStickV );
+            jumpNow = Xnput.GetButtonDown( Xnput.eButton.a );
+            jumpHeld = Xnput.GetButton( Xnput.eButton.a );
+        }
+
 #else
-        float h = Input.GetAxis( "Horizontal" );
-        float v = Input.GetAxis( "Vertical" );
-        float mX = Input.GetAxisRaw( "Mouse X" );
-        float mY = Input.GetAxisRaw( "Mouse Y" );
-        bool jumpNow = Input.GetKeyDown( KeyCode.Space ) || Input.GetKeyDown( KeyCode.X );
-        bool jumpHeld = Input.GetKey( KeyCode.Space ) || Input.GetKey( KeyCode.X );
+        h = Input.GetAxis( "Horizontal" );
+        v = Input.GetAxis( "Vertical" );
+        mX = Input.GetAxisRaw( "Mouse X" );
+        mY = Input.GetAxisRaw( "Mouse Y" );
+        jumpNow = Input.GetKeyDown( KeyCode.Space ) || Input.GetKeyDown( KeyCode.X );
+        jumpHeld = Input.GetKey( KeyCode.Space ) || Input.GetKey( KeyCode.X );
 #endif
 
         // XY movement

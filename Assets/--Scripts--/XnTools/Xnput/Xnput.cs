@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,6 +21,8 @@ public class Xnput : MonoBehaviour {
         "\n\tXnput.GetAxisRaw()",
         true, false );
 
+    
+    
     public ButtonState up, down, left, right, b, a, start, select;
     public string      buttons;
     [HideInInspector]
@@ -29,7 +32,13 @@ public class Xnput : MonoBehaviour {
     [SerializeField]
     private Vector2 moveX, moveY, rightStickX, rightStickY;
 
+    public enum eXnputScope { Global, Instanced, [InspectorName(null)] Undefined };
+    
     [Header( "Settings" )]
+    [Tooltip("Set Xnput to:\n- Global when you want there to be one in a scene or \n- Instanced when you want multiple." +
+             "\n\nIf set to Instanced, the static methods will reference Player 1.")]
+    public eXnputScope scope = eXnputScope.Global;
+
     [Tooltip(
         "Unlike Unity's Input.GetAxis, gravity and sensitivity affect joysticks and gamepad sticks in addition to keyboard input." )]
     public bool useGravityAndSensitivity = true;
@@ -46,9 +55,6 @@ public class Xnput : MonoBehaviour {
 
     public float h => move.x;
     public float v => move.y;
-
-    static public float H => _S_IsSet ? _S.h : 0;
-    static public float V => _S_IsSet ? _S.v : 0;
 
     public float hRaw => moveRaw.x;
     public float vRaw => moveRaw.y;
@@ -70,12 +76,19 @@ public class Xnput : MonoBehaviour {
 
     // Start is called before the first frame update
     void Awake() {
-        if ( _S != null ) {
-            Destroy( gameObject );
-            return;
+        if ( scope == eXnputScope.Instanced ) {
+            if ( !_S_IsSet || _S == null ) {
+                _S = this;
+                _S_IsSet = true;
+            }
+        } else {
+            if ( _S_IsSet && _S != null ) {
+                Destroy( gameObject );
+                return;
+            }
+            _S = this;
+            _S_IsSet = true;
         }
-        _S = this;
-        _S_IsSet = true;
 
         buttonDict = new Dictionary<eButton, ButtonState>();
         buttonDict.Add( eButton.up, up );
@@ -154,8 +167,54 @@ public class Xnput : MonoBehaviour {
         return curr;
     }
 
+    
+#region Instance Methods / My Methods 
+    
+    public bool GetInstanceButton( eButton eB ) {
+        return buttonDict[eB];
+    }
 
+    public bool GetInstanceButtonDown( eButton eB ) {
+        return buttonDict[eB].down;
+    }
+
+    public bool GetInstanceButtonUp( eButton eB ) {
+        return buttonDict[eB].up;
+    }
+
+    public float GetInstanceAxisRaw( eAxis axis ) {
+        if ( axis == eAxis.horizontal ) return hRaw;
+        if ( axis == eAxis.vertical ) return vRaw;
+        if ( axis == eAxis.rightStickH ) return rsHRaw;
+        if ( axis == eAxis.rightStickV ) return rsVRaw;
+        return 0;
+    }
+
+    public float GetInstanceAxis( eAxis axis ) {
+        if ( axis == eAxis.horizontal ) return h;
+        if ( axis == eAxis.vertical ) return v;
+        if ( axis == eAxis.rightStickH ) return rsH;
+        if ( axis == eAxis.rightStickV ) return rsV;
+        return 0;
+    }
+    
+    // "My" Aliases of these methods
+    public bool GetMyButton( eButton eB ) => GetInstanceButton(eB);
+    public bool GetMyButtonDown( eButton eB ) => GetInstanceButtonDown(eB);
+    public bool GetMyButtonUp( eButton eB ) => GetInstanceButtonUp(eB);
+    public float GetMyAxisRaw( eAxis axis ) => GetInstanceAxisRaw( axis );
+    public float GetMyAxis( eAxis axis ) => GetInstanceAxis( axis );
+
+    static public eXnputScope GetScope() => _S_IsSet ? _S.scope : eXnputScope.Undefined; 
+    
+#endregion
+    
+    
+    
 #region Static Methods
+    static public float H => _S_IsSet ? _S.h : 0;
+    static public float V => _S_IsSet ? _S.v : 0;
+    
     static public bool GetButton( eButton eB ) {
         return _S.buttonDict[eB];
     }
